@@ -3,7 +3,7 @@ import { useState } from 'react';
 import './App.css';
 import Form from './components/Form';
 import Navabar from './components/Navabar';
-import Alert from './Alert';
+import Alert from './components/Alert';
 
 function App() {
   const [mode,setMode] = useState("light");
