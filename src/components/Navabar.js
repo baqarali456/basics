@@ -16,8 +16,6 @@ export default function Navabar({mode,ontogglemode,bntText,mystyle}) {
         <li className="nav-item">
           <a className="nav-link" style={mystyle} href="/">Link</a>
         </li>
-        
-        
       </ul>
       <div className="form-check form-switch">
   <input className="form-check-input" type="checkbox" onClick={()=>ontogglemode()} role="switch" id="flexSwitchCheckDefault"/>
